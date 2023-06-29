@@ -1,0 +1,180 @@
+{
+  "css": [
+    {
+      "type": "object",
+      "name": "styled",
+      "box": {
+        "type": "unresolvable",
+        "node": "CallExpression",
+        "stack": [
+          "CallExpression",
+          "CallExpression"
+        ],
+        "line": 145,
+        "column": 41
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "object",
+      "name": "css",
+      "box": {
+        "type": "unresolvable",
+        "node": "Identifier",
+        "stack": [
+          "CallExpression",
+          "PropertyAccessExpression",
+          "Identifier",
+          "Identifier",
+          "BindingElement"
+        ],
+        "line": 146,
+        "column": 26
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "object",
+      "name": "css",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "CallExpression",
+        "stack": [
+          "CallExpression",
+          "ObjectLiteralExpression"
+        ],
+        "line": 4,
+        "column": 26
+      },
+      "data": [
+        {
+          "fontSize": "var(--badge-fz)",
+          "borderRadius": "var(--badge-radius)",
+          "height": "var(--badge-height)",
+          "textDecoration": "none",
+          "padding": "0 var(--badge-padding-x)",
+          "display": "var(--_badge-display, inline-flex)",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": "var(--_badge-width, auto)",
+          "textTransform": "uppercase",
+          "fontWeight": 700,
+          "cursor": "inherit",
+          "textOverflow": "ellipsis",
+          "overflow": "hidden",
+          "color": "var(--badge-color)",
+          "background": "var(--badge-bg)",
+          "border": "var(--badge-bd)"
+        }
+      ]
+    },
+    {
+      "type": "object",
+      "name": "css",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "CallExpression",
+        "stack": [
+          "CallExpression",
+          "ObjectLiteralExpression"
+        ],
+        "line": 28,
+        "column": 27
+      },
+      "data": [
+        {
+          "whiteSpace": "nowrap",
+          "overflow": "hidden",
+          "textOverflow": "ellipsis"
+        }
+      ]
+    },
+    {
+      "type": "object",
+      "name": "css",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "CallExpression",
+        "stack": [
+          "CallExpression",
+          "ObjectLiteralExpression"
+        ],
+        "line": 34,
+        "column": 29
+      },
+      "data": [
+        {
+          "display": "inline-flex",
+          "justifyContent": "center",
+          "alignItems": "center"
+        }
+      ]
+    }
+  ],
+  "cva": [],
+  "recipe": {
+    "badgeRoot": [
+      {
+        "type": "recipe",
+        "name": "badgeRoot",
+        "box": {},
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "badgeSection": [
+      {
+        "type": "recipe",
+        "name": "badgeSection",
+        "box": {},
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "recipe",
+        "name": "badgeSection",
+        "box": {},
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "badgeLabel": [
+      {
+        "type": "recipe",
+        "name": "badgeLabel",
+        "box": {},
+        "data": [
+          {}
+        ]
+      }
+    ]
+  },
+  "pattern": {},
+  "jsx": [
+    {
+      "type": "jsx",
+      "name": "StyledElement",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "stack": [],
+        "line": 149,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    }
+  ]
+}

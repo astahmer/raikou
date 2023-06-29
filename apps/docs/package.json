@@ -1,0 +1,42 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "panda": "panda codegen",
+    "preview-storybook": "serve storybook-static",
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "dependencies": {
+    "@raikou/core": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.5.0",
+    "@storybook/addon-essentials": "^7.0.23",
+    "@storybook/addon-interactions": "^7.0.23",
+    "@storybook/addon-links": "^7.0.23",
+    "@storybook/addon-styling": "^1.3.1",
+    "@storybook/blocks": "^7.0.23",
+    "@storybook/react": "^7.0.23",
+    "@storybook/react-vite": "^7.0.23",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^1.3.2",
+    "autoprefixer": "^10.4.14",
+    "eslint-config-custom": "workspace:0.0.0",
+    "eslint-plugin-storybook": "^0.6.12",
+    "postcss": "^8.4.24",
+    "postcss-import": "^15.1.0",
+    "prop-types": "^15.8.1",
+    "serve": "^13.0.4",
+    "storybook": "^7.0.23",
+    "tsconfig": "workspace:0.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-tsconfig-paths": "^4.2.0"
+  }
+}

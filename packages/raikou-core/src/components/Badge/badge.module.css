@@ -1,0 +1,22 @@
+.root {
+  --badge-height-xs: rem(16px);
+  --badge-height-sm: rem(18px);
+  --badge-height-md: rem(20px);
+  --badge-height-lg: rem(26px);
+  --badge-height-xl: rem(32px);
+
+  --badge-fz-xs: rem(9px);
+  --badge-fz-sm: rem(10px);
+  --badge-fz-md: rem(11px);
+  --badge-fz-lg: rem(13px);
+  --badge-fz-xl: rem(16px);
+
+  --badge-padding-x-xs: rem(6px);
+  --badge-padding-x-sm: rem(8px);
+  --badge-padding-x-md: rem(10px);
+  --badge-padding-x-lg: rem(12px);
+  --badge-padding-x-xl: rem(16px);
+}
+.root--dot {
+  --badge-dot-size: calc(var(--badge-height) / 3.4);
+}
