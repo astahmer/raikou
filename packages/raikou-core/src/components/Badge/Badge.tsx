@@ -109,7 +109,9 @@ const varsResolver = createVarsResolver<BadgeFactory>(
   }
 );
 
-export const Badge = polymorphicFactory<BadgeFactory>((_props, ref) => {
+  const StyledElement = styled('badge', badgeRoot)
+  
+  export const Badge = polymorphicFactory<BadgeFactory>((_props, ref) => {
   const props = useProps(defaultProps, _props);
   const {
     // classNames,
@@ -142,7 +144,6 @@ export const Badge = polymorphicFactory<BadgeFactory>((_props, ref) => {
     varsResolver,
   });
 
-  const StyledElement = styled('badge', badgeRoot())
   const rootStyles = css(styles?.root)
 
   return (

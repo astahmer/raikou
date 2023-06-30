@@ -3,6 +3,7 @@ import { rem } from '../../core'
 
 export const badgeRoot: any = defineRecipe({
   name: 'badgeRoot',
+  jsx: ["Badge"],
   description: 'The styles for the Button component',
   base: {
     fontSize: "var(--badge-fz)",
@@ -36,6 +37,7 @@ export const badgeRoot: any = defineRecipe({
 
 export const badgeLabel = defineRecipe({
   name: 'badgeLabel',
+  jsx: ["Badge"],
   description: 'The styles for the Button component',
   base: {
     whiteSpace: "nowrap",
@@ -46,6 +48,7 @@ export const badgeLabel = defineRecipe({
 
 export const badgeSection = defineRecipe({
   name: 'badgeSection',
+  jsx: ["Badge"],
   description: 'The styles for the Button component',
   base: {
     display: "inline-flex",
